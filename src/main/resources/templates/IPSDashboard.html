@@ -204,13 +204,13 @@ $(document).ready(function() {
 				type : "pie",
 				width : "315",
 				height : "315",
-				sliceColors : [ "#c043fd", "#58cbe8"]
+				sliceColors : [ "lch(54.33% 53.47 134.55)", "#f58520"]
 
 			}), $("#INC1").sparkline([ mxsucc, mxfail ], {
 				type : "pie",
 				width : "315",
 				height : "315",
-				sliceColors : [ "#c043fd", "#58cbe8"]
+				sliceColors : [ "lch(54.33% 53.47 134.55)", "#f58520"]
 
 			})
 		};
@@ -314,20 +314,20 @@ $(document).ready(function() {
 									<div class="row mt-3">
 										<div class="col-4">
 											<p class="text-muted font-15 mb-1 text-truncate">Success</p>
-											<h4 style="background: #c043fd; color:#e6e7e7;" th:text="${Mttomxsuccess}"></h4>
+											<h4 style="background: lch(54.33% 53.47 134.55); color:white;" th:text="${Mttomxsuccess}"></h4>
 										</div>
 										<div class="col-4">
 											<p class="text-muted font-15 mb-1 text-truncate">Failure</p>
-											<h4 style="background:#58cbe8; color:black;" th:text="${MttomxFail}"></h4>
+											<h4 style="background:#f58520; color:black;" th:text="${MttomxFail}"></h4>
 										</div>
 										<!-- <div class="col-4">
 											<p class="text-muted font-15 mb-1 text-truncate">In
 												Progress</p>
-											<h4 style="background: #8a929a; color:#e6e7e7;" th:text="${MttomxFail}"></h4>
+											<h4 style="background: #8a929a; color:#f58520;" th:text="${MttomxFail}"></h4>
 										</div> -->
 										<!-- <div class="col-3">
 											<p class="text-muted font-15 mb-1 text-truncate">R-Failure</p>
-											<h4 style="background: #f7bb86; color:#e6e7e7;" th:text="${MCTranR}"></h4>
+											<h4 style="background: #f7bb86; color:#f58520;" th:text="${MCTranR}"></h4>
 										</div> -->
 									</div>
 
@@ -353,20 +353,20 @@ $(document).ready(function() {
 									<div class="row mt-3">
 										<div class="col-4">
 											<p class="text-muted font-15 mb-1 text-truncate">Success</p>
-											<h4 style="background: #c043fd; color:#e6e7e7;" th:text="${Mxtomxsuccess}"></h4>
+											<h4 style="background: lch(54.33% 53.47 134.55); color:white;" th:text="${Mxtomxsuccess}"></h4>
 										</div>
 										<div class="col-4">
 											<p class="text-muted font-15 mb-1 text-truncate">Failure</p>
-											<h4 style="background: #58cbe8; color:black;" th:text="${MxtomxFail}"></h4>
+											<h4 style="background: #f58520; color:black;" th:text="${MxtomxFail}"></h4>
 										</div>
 										<!-- <div class="col-4">
 											<p class="text-muted font-15 mb-1 text-truncate">In
 												Progress</p>
-											<h4 style="background: #8a929a; color:#e6e7e7;" th:text="${INCTranIP}"></h4>
+											<h4 style="background: #8a929a; color:#f58520;" th:text="${INCTranIP}"></h4>
 										</div> -->
 										<!-- <div class="col-3">
 											<p class="text-muted font-15 mb-1 text-truncate">R-Failure</p>
-											<h4 style="background: #f7bb86; color:#e6e7e7;" th:text="${INCTranR}"></h4>
+											<h4 style="background: #f7bb86; color:#f58520;" th:text="${INCTranR}"></h4>
 										</div> -->
 									</div>
 
